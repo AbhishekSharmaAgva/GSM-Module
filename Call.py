@@ -27,7 +27,7 @@ rcv = port.read(10)
 print rcv
 time.sleep(1)
 
-port.write("ATD9953154022;"+'\r\n')
+port.write("XXXXXXXXXX;"+'\r\n')
 rcv = port.read(10)
 print rcv
 time.sleep(1)
